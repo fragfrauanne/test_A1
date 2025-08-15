@@ -19,8 +19,6 @@ const tasks = [
     { question: "Ich sprech___ Deutsch.", answer: "spreche" }
 ];
 
-
-
 const container = document.getElementById("cardsContainer");
 const fireworks = document.getElementById("fireworks");
 
@@ -101,6 +99,8 @@ function repositionCard(card) {
         container.insertBefore(card, children[randomIndex]);
     }
 }
+
+
 
 // Überprüft, ob alle Karten entfernt wurden und das Feuerwerk angezeigt werden soll.
 function checkEnd() {
